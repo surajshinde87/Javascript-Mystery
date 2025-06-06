@@ -12,6 +12,7 @@
     }
 
     // Simulated API call
+    // This Function is For API Call 
     function fetchSuggestions(query) {
       document.getElementById("log").textContent = `Fetching suggestions for: "${query}" at ${new Date().toLocaleTimeString()}`;
       console.log("API called with:", query);
